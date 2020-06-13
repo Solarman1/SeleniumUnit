@@ -24,20 +24,19 @@ namespace ConsoleApp1
                             };
 
             Test test = new Test();
-            ArrayList valuesH1H2 = new ArrayList();
-            ArrayList valuesH1H2Result = new ArrayList();
+            //ArrayList valuesH1H2 = new ArrayList();
+            //ArrayList valuesH1H2Result = new ArrayList();
 
-            valuesH1H2Result.AddRange(test.Test3());
-            valuesH1H2.AddRange(values);
-            foreach (string elem in valuesH1H2Result)
-            {
-                Console.WriteLine($"result value ->> {elem}");
-            }
+            //valuesH1H2Result.AddRange(test.Test3());
+            //valuesH1H2.AddRange(values);
+            //foreach (string elem in valuesH1H2Result)
+            //{
+            //    Console.WriteLine($"result value ->> {elem}");
+            //}
 
 
-            //test.test2();
-            //test.Test1();
-            //test.Test3();
+            test.Test2();
+            Console.ReadKey();
         }
 
 
@@ -143,6 +142,31 @@ namespace ConsoleApp1
 
 
         }
+
+        public void Test2()
+        {
+            driver.Manage().Window.Maximize();
+            driver.Navigate().GoToUrl(urlGems);
+            webElement = driver.FindElement(By.LinkText("Продукты"));
+            webElement.Click();
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            for (int i = 0; i < 4; i++)
+            {
+                var newScrollHeight = js.ExecuteScript(
+                    "window.scrollBy(0,500)"
+                    );
+                Thread.Sleep(1000);
+            }
+
+            string res = driver.FindElement(By.XPath("/html/body/section[2]/div[2]/div[1]/div[2]/a")).GetAttribute("href");
+            
+            //IWebElement webnew = driver.FindElement(By.TagName("a"));
+            //webnew.GetAttribute("href");
+
+            Console.WriteLine($"href ->> {res}");
+        
+        }
+
     }
 
 }
