@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RfnakfwNWixocDl0pKEXG9x4HEsqvnv1m3h/xawWN9JwBeOh/0ibErbSzfZISiBFZlTC9lDFV98h3ljRbtr9yw==",
+  "dgSpecHash": "TRGnKQ0ydkxtHiIPBzhLLBYjGS83HkunxYgnYa9HRA4GZRMRvdMTqfeo4EItVGQTrMMZnJXLudHqmFGu6r5ejQ==",
   "success": true,
-  "projectFilePath": "C:\\c#\\QuadraticEquation\\gemsdev.ru.Test\\gemsdev.ru.Test\\gemsdev.ru.Test.csproj",
+  "projectFilePath": "C:\\c#\\seleniumTest\\gemsdev.ru.Test\\gemsdev.ru.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SUN\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\SUN\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

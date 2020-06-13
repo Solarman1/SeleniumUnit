@@ -6069,11 +6069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\QuadraticEquation\\gemsdev.ru.Test\\gemsdev.ru.Test\\gemsdev.ru.Test.csproj",
+      "projectUniqueName": "C:\\c#\\seleniumTest\\gemsdev.ru.Test\\gemsdev.ru.Test.csproj",
       "projectName": "gemsdev.ru.Test",
-      "projectPath": "C:\\c#\\QuadraticEquation\\gemsdev.ru.Test\\gemsdev.ru.Test\\gemsdev.ru.Test.csproj",
+      "projectPath": "C:\\c#\\seleniumTest\\gemsdev.ru.Test\\gemsdev.ru.Test.csproj",
       "packagesPath": "C:\\Users\\SUN\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\QuadraticEquation\\gemsdev.ru.Test\\gemsdev.ru.Test\\obj\\",
+      "outputPath": "C:\\c#\\seleniumTest\\gemsdev.ru.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

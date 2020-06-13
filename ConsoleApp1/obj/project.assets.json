@@ -5242,11 +5242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\c#\\QuadraticEquation\\gemsdev.ru.Test\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\c#\\seleniumTest\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\c#\\QuadraticEquation\\gemsdev.ru.Test\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\c#\\seleniumTest\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\SUN\\.nuget\\packages\\",
-      "outputPath": "C:\\c#\\QuadraticEquation\\gemsdev.ru.Test\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\c#\\seleniumTest\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
